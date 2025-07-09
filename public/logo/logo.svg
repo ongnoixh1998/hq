@@ -1,0 +1,35 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background circle -->
+    <circle cx="100" cy="100" r="95" fill="#FF6B35" stroke="#E55A2B" stroke-width="2"/>
+
+    <!-- Inner circle for contrast -->
+    <circle cx="100" cy="100" r="80" fill="#FFF8F0" opacity="0.9"/>
+
+    <!-- Food elements decoration -->
+    <!-- Chef hat shape at top -->
+    <path d="M70 45 Q70 35 80 35 Q85 30 95 30 Q105 30 115 35 Q125 35 125 45 L125 55 Q125 60 120 60 L75 60 Q70 60 70 55 Z" fill="#E55A2B" opacity="0.3"/>
+
+    <!-- Fork and spoon silhouettes -->
+    <g opacity="0.2">
+        <!-- Fork -->
+        <path d="M45 70 L47 70 L47 85 L49 85 L49 70 L51 70 L51 85 L53 85 L53 70 L55 70 L55 95 L45 95 Z" fill="#D4500F"/>
+        <!-- Spoon -->
+        <ellipse cx="155" cy="75" rx="5" ry="8" fill="#D4500F"/>
+        <rect x="153" y="83" width="4" height="15" fill="#D4500F"/>
+    </g>
+
+    <!-- Main HQ text -->
+    <text x="100" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="65" font-weight="bold" fill="#E55A2B">HQ</text>
+
+    <!-- Foody text -->
+    <text x="100" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="#8B4513">FOODY</text>
+
+    <!-- Decorative food dots -->
+    <circle cx="60" cy="120" r="3" fill="#FFD700" opacity="0.6"/>
+    <circle cx="140" cy="110" r="2" fill="#FF8C00" opacity="0.6"/>
+    <circle cx="75" cy="140" r="2" fill="#FF6B35" opacity="0.6"/>
+    <circle cx="125" cy="135" r="3" fill="#FFD700" opacity="0.6"/>
+
+    <!-- Subtle highlight -->
+    <path d="M50 70 Q100 40 150 70 Q100 50 50 70" fill="white" opacity="0.1"/>
+</svg>
